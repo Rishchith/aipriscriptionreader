@@ -1,0 +1,8 @@
+{
+    "model_name": "medical-bert",
+    "version": "1.0.0",
+    "vocab_size": 30000,
+    "hidden_size": 768,
+    "num_attention_heads": 12,
+    "intermediate_size": 3072
+}

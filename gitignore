@@ -1,0 +1,45 @@
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env/
+.venv/
+
+# Distribution/packaging
+dist/
+build/
+*.egg-info/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Model files
+static/models/*
+!static/models/.gitkeep
+
+# Test coverage
+.coverage
+htmlcov/
+
+# Local data
+data/*
+!data/.gitkeep
+
+# Temporary files
+tmp/
+temp/

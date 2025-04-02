@@ -1,0 +1,34 @@
+# API Keys
+OPENAI_API_KEY=your_openai_key
+GOOGLE_MAPS_API_KEY=your_google_maps_key
+CDC_API_KEY=your_cdc_key
+WEATHER_API_KEY=your_weather_key
+
+# Database Configuration
+MONGODB_URI=mongodb://localhost:27017
+REDIS_HOST=localhost
+REDIS_PORT=6379
+
+# Model Paths
+VOICE_MODEL_PATH=static/models/voice_analysis
+FACE_MODEL_PATH=static/models/face_analysis
+NLP_MODEL_PATH=static/models/nlp_models
+
+# Service Configuration
+LOG_LEVEL=INFO
+ENVIRONMENT=development
+DEBUG=True
+
+# External API Endpoints
+CDC_ENDPOINT=https://data.cdc.gov/api/views/
+WHO_ENDPOINT=https://api.who.int/
+WEATHER_ENDPOINT=https://api.weather.com/
+
+# Security
+JWT_SECRET_KEY=your_jwt_secret
+ENCRYPTION_KEY=your_encryption_key
+
+# Feature Toggles
+ENABLE_VR_THERAPY=true
+ENABLE_VOICE_ANALYSIS=true
+ENABLE_FACE_ANALYSIS=true

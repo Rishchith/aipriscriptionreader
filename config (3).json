@@ -1,0 +1,7 @@
+{
+    "medication_reminder": "med_alert.wav",
+    "appointment_reminder": "appointment.wav",
+    "exercise_reminder": "exercise.wav",
+    "emergency_alert": "emergency.wav",
+    "general_notification": "notification.wav"
+}

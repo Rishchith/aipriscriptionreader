@@ -1,0 +1,10 @@
+{
+    "model_version": "1.0.0",
+    "input_shape": [224, 224, 3],
+    "output_classes": ["parkinsons", "alzheimers", "depression"],
+    "threshold": 0.75,
+    "preprocessing": {
+        "normalize": true,
+        "augmentation": false
+    }
+}

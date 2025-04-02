@@ -1,0 +1,8 @@
+{
+    "model_name": "therapy-gpt",
+    "version": "1.0.0",
+    "max_length": 1024,
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "response_length": 256
+}

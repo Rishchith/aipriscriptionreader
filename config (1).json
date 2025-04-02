@@ -1,0 +1,11 @@
+{
+    "model_version": "1.0.0",
+    "face_detection": {
+        "confidence_threshold": 0.8,
+        "nms_threshold": 0.3
+    },
+    "landmarks": {
+        "points": 68,
+        "model_type": "mediapipe"
+    }
+}
